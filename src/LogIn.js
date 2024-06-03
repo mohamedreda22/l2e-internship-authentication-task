@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './SignUp.css';
 import pen from './Pen.png';
 import text from './Text.png';
+import sideImage from "./Image.png";
 
 export default function LogIn() {
   const [email, setEmail] = useState('');
@@ -27,12 +28,17 @@ export default function LogIn() {
 
 
   return (
+    <>
+    <div className="side-image">
+      <img src={sideImage} alt="sideImage" />
+    </div>
+
     <div className="auth-page">
       <ToastContainer />
       <img src={pen} alt="pen" />
       <img src={text} alt="text" />
-      <h1>Welcome to Learn2Earn</h1>
-      <span>Don't have an account?{' '}
+      <h1 className='header'>Welcome to Learn2Earn</h1>
+      <span className='hint'>Don't have an account?{' '}
         <Link to="/signup">Sign Up</Link>
       </span>
       <form className='form-container' onSubmit={handleLogIn}>
@@ -49,6 +55,6 @@ export default function LogIn() {
           <Link to="/signup">Sign Up</Link>
         </span>
       </form>
-    </div>
+    </div></>
   );
 }

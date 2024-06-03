@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './SignUp.css';
 import pen from './Pen.png';
 import text from './Text.png';
+import sideImage from "./Image.png";
 
 export default function SignUp() {
   const [email, setEmail] = useState('');
@@ -27,6 +28,10 @@ export default function SignUp() {
   };
 
   return (
+    <>
+    <div className="side-image">
+      <img src={sideImage} alt="sideImage" />
+    </div>
     <div className="auth-page">
       <ToastContainer />
       <img src={pen} alt="pen" />
@@ -58,5 +63,6 @@ export default function SignUp() {
         <Link to="/login">Log In</Link>
       </form>
     </div>
+    </>
   );
 }

@@ -1,27 +1,36 @@
 .auth-page{
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    max-height: 100vh;
     background-color: #f5f5f5;
     padding: 10px;
-
+    overflow: hidden;
+    position: relative;
 }
 .header{
     text-align: left;
     margin-bottom: -0px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .hint{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+.side-image img{
+    width: 40%;
+    display: flex;
+    float: right;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
 }
 .form-container {
     width: 400px;
     padding: 20px;
     border-radius: 10px;
-     margin-left: 20px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 
