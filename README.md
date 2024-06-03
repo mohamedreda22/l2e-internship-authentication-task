@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # l2e-internship-authentication-task
 ![screencapture-localhost-3000-signup-2024-06-03-19_27_28](https://github.com/mohamedreda22/l2e-internship-authentication-task/assets/73208810/f00b64d3-6303-4ac3-81da-64fbd5abdb46)
 
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,4 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> f2503b4 (Initial commit)
